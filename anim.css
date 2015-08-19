@@ -1,0 +1,37 @@
+#go {
+	padding-left: 300px;
+	bottom: 5%;
+-webkit-animation:mymove 5s 2; /* Safari and Chrome */
+    animation:mymove 10s 35;
+        position: absolute;
+        float: right!important;
+
+}
+
+
+@keyframes mymove
+{
+	from{
+			left:0px
+	}
+	to{
+			left:100px;
+	}
+}
+#w{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
